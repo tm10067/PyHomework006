@@ -34,9 +34,9 @@
 # else:
 #     print("Неповторяющиеся цифры отсутствуют") 
 
-from random import randint
-
 #_________________________________________________________________
+
+from random import randint
 
 list_random = ''.join([str(randint(1,9)) for i in range (int(input("Введите длину последовательности: ")))])
 print(list_random)
